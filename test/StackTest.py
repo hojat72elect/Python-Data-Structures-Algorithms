@@ -1,5 +1,5 @@
-from src.dsa.Stack.Stack import Stack
 import queue
+from src.data_structures.Stack import Stack
 
 def stack_example1():
     example_stack = Stack()
@@ -36,7 +36,6 @@ def lifo_que_example1():
     print(f"top of our stack is : {example_numbers_stack.get()}")
 
     print(f"Is our stack empty now ? {example_numbers_stack.empty()}")
-
 
 if __name__ == '__main__':
     stack_example1()
