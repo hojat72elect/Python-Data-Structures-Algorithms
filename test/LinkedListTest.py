@@ -1,4 +1,4 @@
-from src.dsa.LinkedList.LinkedList import LinkedList
+from src.data_structures.LinkedList import LinkedList
 
 def linked_list_test1():
     first_linked_list = LinkedList()
