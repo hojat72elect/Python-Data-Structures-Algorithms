@@ -1,4 +1,4 @@
-from BinarySearchTree import BinarySearchTree
+from src.data_structures.BinarySearchTree import BinarySearchTree
 
 if __name__ == '__main__':
     rawInputs = input("Enter a list of numbers: ")
