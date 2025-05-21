@@ -1,14 +1,4 @@
-def factorial(n: int) -> int:
-    """
-    Returns the factorial of n.
-    n must be a non-negative integer.
-    """
-
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n - 1)
-
+from src.math.Factorial import factorial
 
 if __name__ == '__main__':
     example1 = 2
