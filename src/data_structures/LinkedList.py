@@ -1,7 +1,15 @@
 class Node:
-    def __init__(self, data):
+    """
+    Pay attention that this node is for a one-way linked list. You can only go from node
+    A to node B, but not the other way.s
+    """
+
+    def __init__(self, data=None):
         self.data = data
         self.next = None
+
+    def __str__(self):
+        return str(self.data)
 
 
 class LinkedList:
